@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		022540E3BA3654789D484528 = {
+			isa = PBXFileReference;
+			path = PawLink/Core/Helpers/AppError.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		06639619ACB056098034FE29 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Cremation/CremationViews.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		0BA9B6E75E395FFA81243F7D = {
+			isa = PBXBuildFile;
+			fileRef = B89E98FF8AE65199A2E3B1F3;
+		};
+		0EDA1D8DFF90535D8C57344C = {
+			isa = PBXBuildFile;
+			fileRef = 8A55A5E319925F949DBE41D3;
+		};
+		0FE4F7557A3A58959A2C17B2 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/BookingDetailsView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		1000951E36A05CD183117A7F = {
+			isa = PBXBuildFile;
+			fileRef = 4AAC97C2673C5693946A353D;
+		};
+		1047D674AE85505DA1168F30 = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/Terms/Terms.md;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = net.daringfireball.markdown;
+		};
+		10FA9DEB79605C89BB5337F6 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D4BB2E97195F42A59F6393;
+			buildPhases = (
+				EB774019187E5B9BA28A8231,
+				EE1B96AE9B555886BF7D013C,
+				46E37DF48D545A4D9A6C7FAA,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PawLink;
+			productName = PawLink;
+			productReference = A0312866E2B95EAF8EB9740C;
+			productType = com.apple.product-type.application;
+		};
+		127C399842FB537CB28F5F63 = {
+			isa = PBXBuildFile;
+			fileRef = 9EF2D747AB175A118382D36F;
+		};
+		128DD36EAD5A535ABFEAD460 = {
+			isa = PBXFileReference;
+			path = PawLink/Services/Location/MockLocationService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		138F86A7CB325A9F89EB14AA = {
+			isa = PBXGroup;
+			children = (
+				93379725853458CD9EB34E5E,
+			);
+			path = PawLink/Resources/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		148B9AABF0EE57379552FFC9 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/WalksHomeView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		18BC47CBC5325F54AA7C4447 = {
+			isa = PBXGroup;
+			children = (
+				305058D7810352A5BAADFCD5,
+				06639619ACB056098034FE29,
+			);
+			path = PawLink/Features/Cremation;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C5F784CB655A9BB2A2EFEB = {
+			isa = PBXBuildFile;
+			fileRef = 305058D7810352A5BAADFCD5;
+		};
+		21AB0C7B490F58BA98DF9B5C = {
+			isa = PBXBuildFile;
+			fileRef = 0FE4F7557A3A58959A2C17B2;
+		};
+		21EE1B1A3B745573B25C1E48 = {
+			isa = PBXBuildFile;
+			fileRef = 38D80E0E62E25C12828A7D72;
+		};
+		2270D0B22A595224B766E510 = {
+			isa = PBXGroup;
+			children = (
+				0FE4F7557A3A58959A2C17B2,
+				6F40B88C1005554C9662A1E3,
+				CAAD9F2BE251504AAE3B41ED,
+				B89E98FF8AE65199A2E3B1F3,
+				EFB9DC00B2245B6AB507C8B8,
+				148B9AABF0EE57379552FFC9,
+			);
+			path = PawLink/Features/WalkBooking;
+			sourceTree = SOURCE_ROOT;
+		};
+		24F18EAAE7605FCEB74202BD = {
+			isa = PBXGroup;
+			children = (
+				128DD36EAD5A535ABFEAD460,
+			);
+			path = PawLink/Services/Location;
+			sourceTree = SOURCE_ROOT;
+		};
+		25799914B2505C55B33121A3 = {
+			isa = PBXBuildFile;
+			fileRef = 6F40B88C1005554C9662A1E3;
+		};
+		25811905778A56F19E9081C8 = {
+			isa = PBXBuildFile;
+			fileRef = 45F9116EFD9151B28F75935A;
+		};
+		26A880FF97FB5FA2AC3EE8FB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.9;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		27EC5715F49C5ADBBD5A9991 = {
+			isa = PBXGroup;
+			children = (
+				022540E3BA3654789D484528,
+			);
+			path = PawLink/Core/Helpers;
+			sourceTree = SOURCE_ROOT;
+		};
+		29B00CE6F8095E51929474CC = {
+			isa = PBXGroup;
+			children = (
+				C4D87D44503352D5A0A4F168,
+			);
+			path = PawLink/Core/Theme;
+			sourceTree = SOURCE_ROOT;
+		};
+		2BE97226789B52D898DA8B75 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5FAE12CAFD551E8CE7A6C4;
+			proxyType = 1;
+			remoteGlobalIDString = 10FA9DEB79605C89BB5337F6;
+			remoteInfo = PawLink;
+		};
+		2CC27C940A255BD597432257 = {
+			isa = PBXBuildFile;
+			fileRef = EFB9DC00B2245B6AB507C8B8;
+		};
+		305058D7810352A5BAADFCD5 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Cremation/CremationPDFGenerator.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		32A4C10F0A9A541E8E0D8745 = {
+			isa = PBXFileReference;
+			path = PawLink/Data/Models/Models.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		32D66DBBB9A353218D5301AF = {
+			isa = PBXFileReference;
+			path = PawLink/Tests/ViewModelTests.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		352F789598C058F4B5B11998 = {
+			isa = PBXBuildFile;
+			fileRef = 06639619ACB056098034FE29;
+		};
+		38D80E0E62E25C12828A7D72 = {
+			isa = PBXFileReference;
+			path = PawLink/Networking/Mock/MockBookingService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		3B8E4264072A5976A51AFCE8 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Auth/SettingsView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		3C5FAE12CAFD551E8CE7A6C4 = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					10FA9DEB79605C89BB5337F6 = {'CreatedOnToolsVersion': '15.0'};
+					5DF923F8D85351E7B536448C = {'CreatedOnToolsVersion': '15.0'};
+				};
+			};
+			buildConfigurationList = 712C2F22280C5F15B91186E2;
+			compatibilityVersion = Xcode 15.0;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 69083C7294F6535382E95484;
+			productRefGroup = 6E978E7393AD54FFB1B0EC23;
+			projectDirPath = ;
+			projectRoot = ;
+			targets = (
+				10FA9DEB79605C89BB5337F6,
+				5DF923F8D85351E7B536448C,
+			);
+		};
+		3E2F5685492D5C00916E800B = {
+			isa = PBXBuildFile;
+			fileRef = D4E6DD76B6A55DCCBB02CDCD;
+		};
+		40B7D81FC87D5B4996B1827F = {
+			isa = PBXGroup;
+			children = (
+				4AAC97C2673C5693946A353D,
+				64A4A01BE61755EEADEDCE1A,
+			);
+			path = PawLink/Core/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		45F9116EFD9151B28F75935A = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Chat/ChatViews.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		46AF0BFDD23B5269A92A51CB = {
+			isa = PBXGroup;
+			children = (
+				647585DB1C6E57E797CFE332,
+			);
+			path = PawLink/Features/Onboarding;
+			sourceTree = SOURCE_ROOT;
+		};
+		46E37DF48D545A4D9A6C7FAA = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDE2D8729B45A1EB0706436,
+				7A08C3838C325AF9819BE5E4,
+				5DF7097F5A555440A5194F5A,
+				902E81A5F07758C8AF9DB25C,
+				7B508AD427C55A0BBEE5EB17,
+				7F44DFED058058368358CA25,
+				127C399842FB537CB28F5F63,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D4BB2E97195F42A59F6393 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC285D931862572DAF2CB958,
+				94C5AB2CC7365CE18A1C73E1,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A517FB075CE5F20A7CE4656 = {
+			isa = PBXGroup;
+			children = (
+				A0A86323534A5C25865E6C18,
+			);
+			path = PawLink/Resources/ru.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		4AAC97C2673C5693946A353D = {
+			isa = PBXFileReference;
+			path = PawLink/Core/Extensions/Binding+Optional.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		4BA8ED62EF8C5D1EB1179C87 = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/Base.lproj/LaunchScreen.storyboard;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = file.storyboard;
+		};
+		4E75DCDFAB815DDD97106F81 = {
+			isa = PBXBuildFile;
+			fileRef = 128DD36EAD5A535ABFEAD460;
+		};
+		5337D5214DE1557A9CCFA05A = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7322013CA91259558CFADA3E,
+				FCE2211AFA2953469562F48D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B1DBA5565C5D179E4EA0D3 = {
+			isa = PBXGroup;
+			children = (
+				AB3C916255EC50A38DB5BF75,
+			);
+			path = PawLink/Data/Persistence;
+			sourceTree = SOURCE_ROOT;
+		};
+		56C29E7121F85CF888383E5B = {
+			isa = PBXGroup;
+			children = (
+				32A4C10F0A9A541E8E0D8745,
+			);
+			path = PawLink/Data/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		57AEB3F8FE2F546FAF5E6F22 = {
+			isa = PBXBuildFile;
+			fileRef = 5C1E131F517757A5A5480617;
+		};
+		589F70EA4C6B5039B2F4846D = {
+			isa = PBXBuildFile;
+			fileRef = 32D66DBBB9A353218D5301AF;
+		};
+		594C1F78C4C65AAF8C6307BA = {
+			isa = PBXGroup;
+			children = (
+				DA99F1F466EB511E85B59295,
+			);
+			path = PawLink/Resources/Privacy;
+			sourceTree = SOURCE_ROOT;
+		};
+		59F24B2433975A919AA4A238 = {
+			isa = PBXFileReference;
+			path = PawLink/App/PawLinkApp.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		5AD6A73081F65EBE88DC86A4 = {
+			isa = PBXFileReference;
+			path = PawLink/Networking/Protocols/Services.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		5C08FE5A31FB555CA0CECB1A = {
+			isa = PBXBuildFile;
+			fileRef = 59F24B2433975A919AA4A238;
+		};
+		5C1E131F517757A5A5480617 = {
+			isa = PBXFileReference;
+			path = PawLink/Networking/Mock/MockWalkerService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		5CDF1DFE7F01593586AB97D2 = {
+			isa = PBXGroup;
+			children = (
+				40B7D81FC87D5B4996B1827F,
+				27EC5715F49C5ADBBD5A9991,
+				29B00CE6F8095E51929474CC,
+			);
+			path = PawLink/Core;
+			sourceTree = SOURCE_ROOT;
+		};
+		5DF7097F5A555440A5194F5A = {
+			isa = PBXBuildFile;
+			fileRef = 4BA8ED62EF8C5D1EB1179C87;
+		};
+		5DF923F8D85351E7B536448C = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5337D5214DE1557A9CCFA05A;
+			buildPhases = (
+				79B6AC2CEEE956D1BEEC0F34,
+				BC957F24D55A534BA085465E,
+				6A7799DF5D6D566E96E3F172,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE3BDF08D435BFCB2D4741C,
+			);
+			name = PawLinkTests;
+			productName = PawLinkTests;
+			productReference = C45B7DC6D93751E3BD3B9E9E;
+			productType = com.apple.product-type.bundle.unit-test;
+		};
+		5F28E1D544ED5DCDACA2AC6E = {
+			isa = PBXGroup;
+			children = (
+				9BDFEDEFC2775B1E8F8508EB,
+				DE7D3F49DFBF50A1B584A87D,
+				18BC47CBC5325F54AA7C4447,
+				B89610A7027C53348792861B,
+				46AF0BFDD23B5269A92A51CB,
+				F5E582AF15085848ACA67E55,
+				2270D0B22A595224B766E510,
+			);
+			path = PawLink/Features;
+			sourceTree = SOURCE_ROOT;
+		};
+		6130E071B1545D09B424DDE6 = {
+			isa = PBXGroup;
+			children = (
+				5AD6A73081F65EBE88DC86A4,
+			);
+			path = PawLink/Networking/Protocols;
+			sourceTree = SOURCE_ROOT;
+		};
+		616BCD5CB88B55079996AD7E = {
+			isa = PBXFileReference;
+			path = PawLink/Networking/Mock/MockCremationService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		64736CB54FA758A3B300B024 = {
+			isa = PBXGroup;
+			children = (
+				1047D674AE85505DA1168F30,
+			);
+			path = PawLink/Resources/Terms;
+			sourceTree = SOURCE_ROOT;
+		};
+		647585DB1C6E57E797CFE332 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Onboarding/OnboardingView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		64A4A01BE61755EEADEDCE1A = {
+			isa = PBXFileReference;
+			path = PawLink/Core/Extensions/View+Extensions.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		678F7827FAD05F7693B16EAD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.9;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
+		69083C7294F6535382E95484 = {
+			isa = PBXGroup;
+			children = (
+				95BDA011FA245BE688E6528E,
+				5CDF1DFE7F01593586AB97D2,
+				6FECDC84D9DF5E48AA5DBA49,
+				5F28E1D544ED5DCDACA2AC6E,
+				BDB177860ADE5B3B9AEC32FC,
+				A4D108E16ED352D1BFFFA634,
+				9BE561C38E39549EB9D97D98,
+				CCA6BA77B9F35A3587B5C5A1,
+				6E978E7393AD54FFB1B0EC23,
+			);
+			sourceTree = <group>;
+			name = PawLink;
+		};
+		6A7799DF5D6D566E96E3F172 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2D5639E39654E2BAE451AD = {
+			isa = PBXBuildFile;
+			fileRef = B8D13F545C5554D58BF21302;
+		};
+		6E978E7393AD54FFB1B0EC23 = {
+			isa = PBXGroup;
+			children = (
+				A0312866E2B95EAF8EB9740C,
+				C45B7DC6D93751E3BD3B9E9E,
+			);
+			name = Products;
+			sourceTree = <group>;
+		};
+		6F40B88C1005554C9662A1E3 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/BookingStatusView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		6FECDC84D9DF5E48AA5DBA49 = {
+			isa = PBXGroup;
+			children = (
+				56C29E7121F85CF888383E5B,
+				55B1DBA5565C5D179E4EA0D3,
+			);
+			path = PawLink/Data;
+			sourceTree = SOURCE_ROOT;
+		};
+		712C2F22280C5F15B91186E2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A880FF97FB5FA2AC3EE8FB,
+				678F7827FAD05F7693B16EAD,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7322013CA91259558CFADA3E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ;
+				INFOPLIST_FILE = PawLink/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PawLinkTests;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SWIFT_VERSION = 5.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		783139FDAFA255CD9ABA94CD = {
+			isa = PBXBuildFile;
+			fileRef = 64A4A01BE61755EEADEDCE1A;
+		};
+		7838CE41DD1E5894A6BB76F5 = {
+			isa = PBXGroup;
+			children = (
+				9C3AA3B6CE6E524BA4F66A2E,
+			);
+			path = PawLink/Services/Auth;
+			sourceTree = SOURCE_ROOT;
+		};
+		79B6AC2CEEE956D1BEEC0F34 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589F70EA4C6B5039B2F4846D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A08C3838C325AF9819BE5E4 = {
+			isa = PBXBuildFile;
+			fileRef = 93379725853458CD9EB34E5E;
+		};
+		7B508AD427C55A0BBEE5EB17 = {
+			isa = PBXBuildFile;
+			fileRef = DA99F1F466EB511E85B59295;
+		};
+		7C41303F4ED455CB9B31C171 = {
+			isa = PBXGroup;
+			children = (
+				BFC5192C101559339329499B,
+			);
+			path = PawLink/Services/Payment;
+			sourceTree = SOURCE_ROOT;
+		};
+		7DA76809717C5B0BBCAC3039 = {
+			isa = PBXBuildFile;
+			fileRef = 3B8E4264072A5976A51AFCE8;
+		};
+		7F44DFED058058368358CA25 = {
+			isa = PBXBuildFile;
+			fileRef = 1047D674AE85505DA1168F30;
+		};
+		8432D36425C653709D409520 = {
+			isa = PBXBuildFile;
+			fileRef = EBD4BC41FF515D47A3E9240B;
+		};
+		8A4F9ACC61F65608BFF04B8E = {
+			isa = PBXGroup;
+			children = (
+				D4E6DD76B6A55DCCBB02CDCD,
+			);
+			path = PawLink/Services/Notifications;
+			sourceTree = SOURCE_ROOT;
+		};
+		8A55A5E319925F949DBE41D3 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/MapSearch/MapSearchView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		8CCEDBF1009B50279E4D4A1B = {
+			isa = PBXBuildFile;
+			fileRef = 5AD6A73081F65EBE88DC86A4;
+		};
+		8E6BC2556D6F527C9420EBEC = {
+			isa = PBXBuildFile;
+			fileRef = 9C3AA3B6CE6E524BA4F66A2E;
+		};
+		8EDE2D8729B45A1EB0706436 = {
+			isa = PBXBuildFile;
+			fileRef = A0A86323534A5C25865E6C18;
+		};
+		902E81A5F07758C8AF9DB25C = {
+			isa = PBXBuildFile;
+			fileRef = F2F78C003B15575198A40EE9;
+		};
+		919377A2E1CE510F8A0E0A2D = {
+			isa = PBXBuildFile;
+			fileRef = C4D87D44503352D5A0A4F168;
+		};
+		93379725853458CD9EB34E5E = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/en.lproj/Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = text.plist.strings;
+		};
+		93D3AA7576595C20917E85AB = {
+			isa = PBXBuildFile;
+			fileRef = CAAD9F2BE251504AAE3B41ED;
+		};
+		94C5AB2CC7365CE18A1C73E1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ;
+				INFOPLIST_FILE = PawLink/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PawLink;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SWIFT_VERSION = 5.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		95BDA011FA245BE688E6528E = {
+			isa = PBXGroup;
+			children = (
+				C7197B066D905355A10536DA,
+				59F24B2433975A919AA4A238,
+			);
+			path = PawLink/App;
+			sourceTree = SOURCE_ROOT;
+		};
+		9A47CC9A087B58DEA9A3AF89 = {
+			isa = PBXGroup;
+			children = (
+				38D80E0E62E25C12828A7D72,
+				B2DE5BF1C4195E259590DBE2,
+				616BCD5CB88B55079996AD7E,
+				5C1E131F517757A5A5480617,
+			);
+			path = PawLink/Networking/Mock;
+			sourceTree = SOURCE_ROOT;
+		};
+		9BDFEDEFC2775B1E8F8508EB = {
+			isa = PBXGroup;
+			children = (
+				EBD4BC41FF515D47A3E9240B,
+				3B8E4264072A5976A51AFCE8,
+			);
+			path = PawLink/Features/Auth;
+			sourceTree = SOURCE_ROOT;
+		};
+		9BE561C38E39549EB9D97D98 = {
+			isa = PBXGroup;
+			children = (
+				B8CB61F2E4795EA6B3D80E47,
+				7838CE41DD1E5894A6BB76F5,
+				24F18EAAE7605FCEB74202BD,
+				8A4F9ACC61F65608BFF04B8E,
+				7C41303F4ED455CB9B31C171,
+			);
+			path = PawLink/Services;
+			sourceTree = SOURCE_ROOT;
+		};
+		9C3AA3B6CE6E524BA4F66A2E = {
+			isa = PBXFileReference;
+			path = PawLink/Services/Auth/MockAuthService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		9EF2D747AB175A118382D36F = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/Assets.xcassets;
+			sourceTree = SOURCE_ROOT;
+			explicitFileType = folder.assetcatalog;
+		};
+		A0312866E2B95EAF8EB9740C = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = PawLink.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A0A86323534A5C25865E6C18 = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/ru.lproj/Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = text.plist.strings;
+		};
+		A1420997B3FA543D950D1544 = {
+			isa = PBXBuildFile;
+			fileRef = 616BCD5CB88B55079996AD7E;
+		};
+		A4CBBE39403A5084BA1F1859 = {
+			isa = PBXBuildFile;
+			fileRef = 022540E3BA3654789D484528;
+		};
+		A4D108E16ED352D1BFFFA634 = {
+			isa = PBXGroup;
+			children = (
+				9EF2D747AB175A118382D36F,
+				A4F7FFD94C0E52C394AAB1B8,
+				F2F78C003B15575198A40EE9,
+				594C1F78C4C65AAF8C6307BA,
+				64736CB54FA758A3B300B024,
+				138F86A7CB325A9F89EB14AA,
+				4A517FB075CE5F20A7CE4656,
+			);
+			path = PawLink/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A4F7FFD94C0E52C394AAB1B8 = {
+			isa = PBXGroup;
+			children = (
+				4BA8ED62EF8C5D1EB1179C87,
+			);
+			path = PawLink/Resources/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB3C916255EC50A38DB5BF75 = {
+			isa = PBXFileReference;
+			path = PawLink/Data/Persistence/AppModelContainer.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		ABE3BDF08D435BFCB2D4741C = {
+			isa = PBXTargetDependency;
+			target = 10FA9DEB79605C89BB5337F6;
+			targetProxy = 2BE97226789B52D898DA8B75;
+		};
+		B2DE5BF1C4195E259590DBE2 = {
+			isa = PBXFileReference;
+			path = PawLink/Networking/Mock/MockChatService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		B89610A7027C53348792861B = {
+			isa = PBXGroup;
+			children = (
+				8A55A5E319925F949DBE41D3,
+			);
+			path = PawLink/Features/MapSearch;
+			sourceTree = SOURCE_ROOT;
+		};
+		B89E98FF8AE65199A2E3B1F3 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/SlotPickerView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		B8CB61F2E4795EA6B3D80E47 = {
+			isa = PBXGroup;
+			children = (
+				C1156E84A9AE5A349BBB815E,
+			);
+			path = PawLink/Services/Analytics;
+			sourceTree = SOURCE_ROOT;
+		};
+		B8D13F545C5554D58BF21302 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Reviews/ReviewsView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		BC957F24D55A534BA085465E = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB177860ADE5B3B9AEC32FC = {
+			isa = PBXGroup;
+			children = (
+				9A47CC9A087B58DEA9A3AF89,
+				6130E071B1545D09B424DDE6,
+			);
+			path = PawLink/Networking;
+			sourceTree = SOURCE_ROOT;
+		};
+		BFC5192C101559339329499B = {
+			isa = PBXFileReference;
+			path = PawLink/Services/Payment/PaymentManager.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		C1156E84A9AE5A349BBB815E = {
+			isa = PBXFileReference;
+			path = PawLink/Services/Analytics/AnalyticsService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		C39320446A425C599FC052A4 = {
+			isa = PBXBuildFile;
+			fileRef = 32A4C10F0A9A541E8E0D8745;
+		};
+		C45B7DC6D93751E3BD3B9E9E = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = PawLinkTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4D87D44503352D5A0A4F168 = {
+			isa = PBXFileReference;
+			path = PawLink/Core/Theme/Theme.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		C7197B066D905355A10536DA = {
+			isa = PBXFileReference;
+			path = PawLink/App/AppCoordinator.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		CAAD9F2BE251504AAE3B41ED = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/PaymentView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		CC285D931862572DAF2CB958 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ;
+				INFOPLIST_FILE = PawLink/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PawLink;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SWIFT_VERSION = 5.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		CCA6BA77B9F35A3587B5C5A1 = {
+			isa = PBXGroup;
+			children = (
+				32D66DBBB9A353218D5301AF,
+			);
+			path = PawLink/Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		D4E6DD76B6A55DCCBB02CDCD = {
+			isa = PBXFileReference;
+			path = PawLink/Services/Notifications/MockNotificationService.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		D74F9A262E5156488A5BA416 = {
+			isa = PBXBuildFile;
+			fileRef = 148B9AABF0EE57379552FFC9;
+		};
+		DA99F1F466EB511E85B59295 = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/Privacy/Privacy.md;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = net.daringfireball.markdown;
+		};
+		DE7D3F49DFBF50A1B584A87D = {
+			isa = PBXGroup;
+			children = (
+				45F9116EFD9151B28F75935A,
+			);
+			path = PawLink/Features/Chat;
+			sourceTree = SOURCE_ROOT;
+		};
+		E70E99CA3A7F5A2B9C731E5A = {
+			isa = PBXBuildFile;
+			fileRef = B2DE5BF1C4195E259590DBE2;
+		};
+		E7C5F66988835F8D99DD4C7D = {
+			isa = PBXBuildFile;
+			fileRef = AB3C916255EC50A38DB5BF75;
+		};
+		EB774019187E5B9BA28A8231 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCEDBF1009B50279E4D4A1B,
+				A1420997B3FA543D950D1544,
+				57AEB3F8FE2F546FAF5E6F22,
+				21EE1B1A3B745573B25C1E48,
+				E70E99CA3A7F5A2B9C731E5A,
+				5C08FE5A31FB555CA0CECB1A,
+				F6B12CD992B7531082E0F88F,
+				3E2F5685492D5C00916E800B,
+				F1341EF5C44953CA8F07AF2C,
+				FCDFCD6B7FC65CA3A0345839,
+				8E6BC2556D6F527C9420EBEC,
+				4E75DCDFAB815DDD97106F81,
+				919377A2E1CE510F8A0E0A2D,
+				A4CBBE39403A5084BA1F1859,
+				1000951E36A05CD183117A7F,
+				783139FDAFA255CD9ABA94CD,
+				E7C5F66988835F8D99DD4C7D,
+				C39320446A425C599FC052A4,
+				2CC27C940A255BD597432257,
+				D74F9A262E5156488A5BA416,
+				21AB0C7B490F58BA98DF9B5C,
+				25799914B2505C55B33121A3,
+				93D3AA7576595C20917E85AB,
+				0BA9B6E75E395FFA81243F7D,
+				25811905778A56F19E9081C8,
+				6D2D5639E39654E2BAE451AD,
+				352F789598C058F4B5B11998,
+				19C5F784CB655A9BB2A2EFEB,
+				0EDA1D8DFF90535D8C57344C,
+				F45D0D3877A85EBCA33D8E13,
+				7DA76809717C5B0BBCAC3039,
+				8432D36425C653709D409520,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4BC41FF515D47A3E9240B = {
+			isa = PBXFileReference;
+			path = PawLink/Features/Auth/AuthView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		EE1B96AE9B555886BF7D013C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB9DC00B2245B6AB507C8B8 = {
+			isa = PBXFileReference;
+			path = PawLink/Features/WalkBooking/WalkerDetailView.swift;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = sourcecode.swift;
+		};
+		F1341EF5C44953CA8F07AF2C = {
+			isa = PBXBuildFile;
+			fileRef = BFC5192C101559339329499B;
+		};
+		F2F78C003B15575198A40EE9 = {
+			isa = PBXFileReference;
+			path = PawLink/Resources/Info.plist;
+			sourceTree = SOURCE_ROOT;
+			lastKnownFileType = text.plist.xml;
+		};
+		F45D0D3877A85EBCA33D8E13 = {
+			isa = PBXBuildFile;
+			fileRef = 647585DB1C6E57E797CFE332;
+		};
+		F5E582AF15085848ACA67E55 = {
+			isa = PBXGroup;
+			children = (
+				B8D13F545C5554D58BF21302,
+			);
+			path = PawLink/Features/Reviews;
+			sourceTree = SOURCE_ROOT;
+		};
+		F6B12CD992B7531082E0F88F = {
+			isa = PBXBuildFile;
+			fileRef = C7197B066D905355A10536DA;
+		};
+		FCDFCD6B7FC65CA3A0345839 = {
+			isa = PBXBuildFile;
+			fileRef = C1156E84A9AE5A349BBB815E;
+		};
+		FCE2211AFA2953469562F48D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ;
+				INFOPLIST_FILE = PawLink/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PawLinkTests;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SWIFT_VERSION = 5.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+	};
+	rootObject = 3C5FAE12CAFD551E8CE7A6C4;
+}
